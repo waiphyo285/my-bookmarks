@@ -1,25 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import {
+  Box,
+  AppBar,
+  Toolbar,
+  Container,
+  Typography,
+  Grid,
+  IconButton,
+} from "@mui/material";
 
-function App() {
+import MultiActionAreaCard from "./components/MultiActionAreaCard";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <AppBar position="static" color="secondary">
+        <Toolbar>
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+          >
+            📑
+          </IconButton>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            Bookmarks
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <main>
+        <Box
+          sx={{
+            // bgcolor: "#fff",
+            marginTop: 6,
+            marginBottom: 6,
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Container>
+            <Grid
+              container
+              spacing={{ xs: 2, md: 3 }}
+              columns={{ xs: 4, sm: 8, md: 12 }}
+            >
+              <Grid item xs={2} sm={4} md={4}>
+                <MultiActionAreaCard />
+              </Grid>
+              <Grid item xs={2} sm={4} md={4}>
+                <MultiActionAreaCard />
+              </Grid>
+              <Grid item xs={2} sm={4} md={4}>
+                <MultiActionAreaCard />
+              </Grid>
+              <Grid item xs={2} sm={4} md={4}>
+                <MultiActionAreaCard />
+              </Grid>
+            </Grid>
+          </Container>
+        </Box>
+      </main>
+    </>
   );
 }
-
-export default App;
