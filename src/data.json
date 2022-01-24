@@ -1,0 +1,223 @@
+{
+  "myBookmarks": [
+    {
+      "folder": "Sir Thet Khine",
+      "description": "🔷 React 3rd Batch - Links",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "content": [
+        {
+          "title": "libgen",
+          "description": "Day 1",
+          "link": "https://libgen.is/book/index.php?md5=AA16CFCAB9F4B980B01675EC7EA75820"
+        },
+        {
+          "title": "datatracker",
+          "description": "Day 1",
+          "link": "https://datatracker.ietf.org/doc/html/rfc2616"
+        },
+        {
+          "title": "html5rocks",
+          "description": "Day 1",
+          "link": "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork"
+        },
+        {
+          "title": "electronjs",
+          "description": "Day 1",
+          "link": "https://www.electronjs.org"
+        },
+        {
+          "title": "primitive",
+          "description": "Day 4",
+          "link": "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+        },
+        {
+          "title": "decimal.js",
+          "description": "Day 4",
+          "link": "https://mikemcl.github.io/decimal.js"
+        },
+        {
+          "title": "momentjs",
+          "description": "Day 4",
+          "link": "https://momentjs.com"
+        },
+        {
+          "title": "string",
+          "description": "Day 4",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String"
+        },
+        {
+          "title": "libgen",
+          "description": "Day 7",
+          "link": "https://libgen.is"
+        },
+        {
+          "title": "js good parts book",
+          "description": "Day 7",
+          "link": "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742"
+        },
+        {
+          "title": "intelligent plants",
+          "description": "Day 8",
+          "link": "https://www.forbes.com/sites/andreamorris/2021/07/20/intelligent-beings-without-brains-are-abundant-in-naturea-growing-scientific-consensus/?sh=4f90ae013a92"
+        },
+        {
+          "title": "jsfuck",
+          "description": "Day 9",
+          "link": "http://www.jsfuck.com"
+        },
+        {
+          "title": "freecodecamp",
+          "description": "Day 10",
+          "link": "https://www.freecodecamp.org/news/the-10-most-popular-coding-challenge-websites-of-2016-fb8a5672d22f"
+        },
+        {
+          "title": "javascript info",
+          "description": "Day 15",
+          "link": "https://javascript.info"
+        },
+        {
+          "title": "codeburst",
+          "description": "Day 16",
+          "link": "https://codeburst.io/a-short-summary-on-clean-coding-best-practices-d8afbfa7677"
+        },
+        {
+          "title": "hackerrank",
+          "description": "Day 16",
+          "link": "https://www.hackerrank.com/challenges/js10-arrays/topics"
+        },
+        {
+          "title": "software metric",
+          "description": "Day 16",
+          "link": "https://en.wikipedia.org/wiki/Software_metric"
+        },
+        {
+          "title": "libgen",
+          "description": "Day 18",
+          "link": "https://libgen.is/book/index.php?md5=2548F66E6D30657251153563E1770806"
+        },
+        {
+          "title": "ramdajs",
+          "description": "Day 19",
+          "link": "https://ramdajs.com/0.20.0"
+        },
+        {
+          "title": "frontendmasters",
+          "description": "Day 21",
+          "link": "https://frontendmasters.com/courses/functional-javascript/maybe-functor"
+        },
+        {
+          "title": "libgen",
+          "description": "Day 21",
+          "link": "https://libgen.is/book/index.php?md5=4E57D34BAEB6A38853E358806973797A"
+        },
+        {
+          "title": "jrsinclair",
+          "description": "Day 21",
+          "link": "https://jrsinclair.com/articles/2016/marvellously-mysterious-javascript-maybe-monad"
+        },
+        {
+          "title": "medium",
+          "description": "Day 21",
+          "link": "https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8"
+        },
+        {
+          "title": "7urtle",
+          "description": "Day 22",
+          "link": "https://www.7urtle.com/"
+        },
+        {
+          "title": "fsharpforfunandprofit",
+          "description": "Day 22",
+          "link": "https://fsharpforfunandprofit.com/"
+        }
+      ]
+    },
+    {
+      "folder": "Click Us",
+      "description": "🔷 Fundraising Website Collection",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+      "content": [
+        {
+          "title": "weclick4pdf",
+          "description": "Daily",
+          "link": "https://weclick4pdf.com"
+        },
+        {
+          "title": "pyithubawa",
+          "description": "Daily",
+          "link": "https://pyithubawa.com"
+        },
+        {
+          "title": "c2d",
+          "description": "Daily",
+          "link": "https://c2d.space"
+        },
+        {
+          "title": "nwayooweb",
+          "description": "Daily",
+          "link": "https://nwayooweb.net"
+        },
+        {
+          "title": "padaytharpin",
+          "description": "Daily",
+          "link": "https://padaytharpin.com"
+        },
+        {
+          "title": "shanan101",
+          "description": "Daily",
+          "link": "https://shanan101.com"
+        },
+        {
+          "title": "springmusicmm",
+          "description": "Daily",
+          "link": "https://springmusicmm.com"
+        },
+        {
+          "title": "hornbill",
+          "description": "Daily",
+          "link": "https://hornbill.site"
+        },
+        {
+          "title": "chinbattalion",
+          "description": "Daily",
+          "link": "https://chinbattalion.site"
+        },
+        {
+          "title": "karenniguys",
+          "description": "Daily",
+          "link": "https://karenniguys.com"
+        },
+        {
+          "title": "panthee",
+          "description": "Daily",
+          "link": "https://panthee.com"
+        },
+        {
+          "title": "pandabudget",
+          "description": "Daily",
+          "link": "https://pandabudget.com"
+        },
+        {
+          "title": "digitalzeegwat",
+          "description": "Daily",
+          "link": "https://digitalzeegwat.com"
+        },
+        {
+          "title": "kyaungthar",
+          "description": "Daily",
+          "link": "https://kyaungthar.com"
+        },
+        {
+          "title": "shootandsupport",
+          "description": "Daily",
+          "link": "https://shootandsupport.studio"
+        },
+        {
+          "title": "nwayooquiz",
+          "description": "Daily",
+          "link": "https://nwayooquiz.com"
+        }
+      ]
+    }
+  ]
+}
