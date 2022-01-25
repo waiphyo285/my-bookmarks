@@ -18,11 +18,11 @@ export default function BodyComponent() {
         <Container>
           <Grid
             container
-            spacing={{ xs: 2, md: 3 }}
-            columns={{ xs: 4, sm: 8, md: 12 }}
+            spacing={{ xs: 1, md: 3 }}
+            columns={{ xs: 1, sm: 9, md: 12 }}
           >
             {MyBookmarks.map((bookmark, idx) => (
-              <Grid key={idx} item xs={2} sm={3} md={3}>
+              <Grid key={idx} item xs={12} sm={3} md={3}>
                 <CardComponent bookmark={bookmark} />
               </Grid>
             ))}

@@ -23,7 +23,7 @@ export default function MultiActionAreaCard({ bookmark }) {
 
   return (
     <>
-      <Card sx={{ maxWidth: 330, padding: 0.5 }}>
+      <Card sx={{ padding: 0.5 }}>
         <CardActionArea>
           <CardMedia alt={folder} component="img" image={imageUrl} />
           <CardContent>
