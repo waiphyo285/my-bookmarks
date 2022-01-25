@@ -1,6 +1,93 @@
 {
   "myBookmarks": [
     {
+      "folder": "Daily Click Us",
+      "description": "🔷 Fundraising Website Collection",
+      "imageUrl": "/images/spring_revolution.png",
+      "content": [
+        {
+          "title": "weclick4pdf",
+          "description": "Daily",
+          "link": "https://weclick4pdf.com"
+        },
+        {
+          "title": "pyithubawa",
+          "description": "Daily",
+          "link": "https://pyithubawa.com"
+        },
+        {
+          "title": "c2d",
+          "description": "Daily",
+          "link": "https://c2d.space"
+        },
+        {
+          "title": "nwayooweb",
+          "description": "Daily",
+          "link": "https://nwayooweb.net"
+        },
+        {
+          "title": "padaytharpin",
+          "description": "Daily",
+          "link": "https://padaytharpin.com"
+        },
+        {
+          "title": "shanan101",
+          "description": "Daily",
+          "link": "https://shanan101.com"
+        },
+        {
+          "title": "springmusicmm",
+          "description": "Daily",
+          "link": "https://springmusicmm.com"
+        },
+        {
+          "title": "hornbill",
+          "description": "Daily",
+          "link": "https://hornbill.site"
+        },
+        {
+          "title": "chinbattalion",
+          "description": "Daily",
+          "link": "https://chinbattalion.site"
+        },
+        {
+          "title": "karenniguys",
+          "description": "Daily",
+          "link": "https://karenniguys.com"
+        },
+        {
+          "title": "panthee",
+          "description": "Daily",
+          "link": "https://panthee.com"
+        },
+        {
+          "title": "pandabudget",
+          "description": "Daily",
+          "link": "https://pandabudget.com"
+        },
+        {
+          "title": "digitalzeegwat",
+          "description": "Daily",
+          "link": "https://digitalzeegwat.com"
+        },
+        {
+          "title": "kyaungthar",
+          "description": "Daily",
+          "link": "https://kyaungthar.com"
+        },
+        {
+          "title": "shootandsupport",
+          "description": "Daily",
+          "link": "https://shootandsupport.studio"
+        },
+        {
+          "title": "nwayooquiz",
+          "description": "Daily",
+          "link": "https://nwayooquiz.com"
+        }
+      ]
+    },
+    {
       "folder": "Sir Thet Khine",
       "description": "🔷 React 3rd Batch - Links",
       "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -129,93 +216,6 @@
           "title": "fsharpforfunandprofit",
           "description": "Day 22",
           "link": "https://fsharpforfunandprofit.com/"
-        }
-      ]
-    },
-    {
-      "folder": "Click Us",
-      "description": "🔷 Fundraising Website Collection",
-      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
-      "content": [
-        {
-          "title": "weclick4pdf",
-          "description": "Daily",
-          "link": "https://weclick4pdf.com"
-        },
-        {
-          "title": "pyithubawa",
-          "description": "Daily",
-          "link": "https://pyithubawa.com"
-        },
-        {
-          "title": "c2d",
-          "description": "Daily",
-          "link": "https://c2d.space"
-        },
-        {
-          "title": "nwayooweb",
-          "description": "Daily",
-          "link": "https://nwayooweb.net"
-        },
-        {
-          "title": "padaytharpin",
-          "description": "Daily",
-          "link": "https://padaytharpin.com"
-        },
-        {
-          "title": "shanan101",
-          "description": "Daily",
-          "link": "https://shanan101.com"
-        },
-        {
-          "title": "springmusicmm",
-          "description": "Daily",
-          "link": "https://springmusicmm.com"
-        },
-        {
-          "title": "hornbill",
-          "description": "Daily",
-          "link": "https://hornbill.site"
-        },
-        {
-          "title": "chinbattalion",
-          "description": "Daily",
-          "link": "https://chinbattalion.site"
-        },
-        {
-          "title": "karenniguys",
-          "description": "Daily",
-          "link": "https://karenniguys.com"
-        },
-        {
-          "title": "panthee",
-          "description": "Daily",
-          "link": "https://panthee.com"
-        },
-        {
-          "title": "pandabudget",
-          "description": "Daily",
-          "link": "https://pandabudget.com"
-        },
-        {
-          "title": "digitalzeegwat",
-          "description": "Daily",
-          "link": "https://digitalzeegwat.com"
-        },
-        {
-          "title": "kyaungthar",
-          "description": "Daily",
-          "link": "https://kyaungthar.com"
-        },
-        {
-          "title": "shootandsupport",
-          "description": "Daily",
-          "link": "https://shootandsupport.studio"
-        },
-        {
-          "title": "nwayooquiz",
-          "description": "Daily",
-          "link": "https://nwayooquiz.com"
         }
       ]
     }

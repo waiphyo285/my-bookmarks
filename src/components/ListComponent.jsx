@@ -13,7 +13,13 @@ import { Bookmark } from "@mui/icons-material";
 
 export default function ListComponent({ contentList }) {
   return (
-    <List sx={{ width: "100%", bgcolor: "background.paper" }}>
+    <List
+      sx={{
+        width: "100%",
+        bgcolor: "background.paper",
+        marginTop: 6,
+      }}
+    >
       {contentList.map((content, idx) => (
         <ListItem
           key={idx}

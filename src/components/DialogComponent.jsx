@@ -24,7 +24,7 @@ export default function DialogComponent(props) {
         onClose={handleClose}
         TransitionComponent={Transition}
       >
-        <AppBar sx={{ position: "relative" }}>
+        <AppBar sx={{ position: "fixed" }}>
           <Toolbar>
             <IconButton
               edge="start"

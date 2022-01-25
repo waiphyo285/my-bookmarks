@@ -11,8 +11,8 @@ export default function BodyComponent() {
     <main>
       <Box
         sx={{
-          marginTop: 6,
-          marginBottom: 6,
+          marginTop: 12,
+          marginBottom: 12,
         }}
       >
         <Container>
