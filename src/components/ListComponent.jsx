@@ -6,12 +6,12 @@ import {
   ListItemText,
   ListItemAvatar,
   Avatar,
+  IconButton,
   Typography,
 } from "@mui/material";
+import { Bookmark, ContentCopy } from "@mui/icons-material";
 
-import { Bookmark } from "@mui/icons-material";
-
-export default function ListComponent({ contentList }) {
+export default function ListComponent({ contentList, addToast }) {
   return (
     <List
       sx={{
@@ -27,7 +27,7 @@ export default function ListComponent({ contentList }) {
           sx={{ borderBottom: "1.3px solid #ddd " }}
         >
           <ListItemAvatar>
-            <Avatar>
+            <Avatar sx={{ bgcolor: "#669" }}>
               <Bookmark />
             </Avatar>
           </ListItemAvatar>
@@ -41,14 +41,24 @@ export default function ListComponent({ contentList }) {
                   variant="caption"
                   color="text.primary"
                 >
-                  {content.description}
+                  🔗 {content.description}:
                 </Typography>
-                <Link href={content.link} color="inherit">
-                  🔗{content.link}
+                <Link href={content.link} color="primary">
+                  {content.link}
                 </Link>
               </React.Fragment>
             }
           />
+          <IconButton
+            edge="end"
+            size="small"
+            aria-label="copy"
+            onClick={() => {
+              navigator.clipboard.writeText(content.link);
+            }}
+          >
+            <ContentCopy fontSize="8" title="copy to clipboard" />
+          </IconButton>
         </ListItem>
       ))}
     </List>

@@ -17,7 +17,7 @@ export default function AlertComponent(props) {
   return (
     <div>
       <Dialog
-        open={open}
+        open={open || false}
         keepMounted
         TransitionComponent={Transition}
         onClose={handleClose}
@@ -30,7 +30,9 @@ export default function AlertComponent(props) {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>OK</Button>
+          <Button size="small" variant="contained" onClick={handleClose}>
+            OK
+          </Button>
         </DialogActions>
       </Dialog>
     </div>
