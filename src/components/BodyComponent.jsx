@@ -1,7 +1,10 @@
 import * as React from "react";
+import { ToastContainer } from "react-toastify";
 import { Box, Grid, Container } from "@mui/material";
 import CardComponent from "./CardComponent";
 import DialogComponent from "./DialogComponent";
+import AlertComponent from "./AlertComponent";
+
 import data from "../data.json";
 
 const MyBookmarks = data.myBookmarks;
@@ -30,6 +33,8 @@ export default function BodyComponent() {
           <DialogComponent />
         </Container>
       </Box>
+      <AlertComponent />
+      <ToastContainer />
     </main>
   );
 }
