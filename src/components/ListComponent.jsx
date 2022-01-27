@@ -70,7 +70,11 @@ export default function ListComponent({ contentList }) {
               showToast("Link is copied");
             }}
           >
-            <ContentCopy fontSize="8" title="copy to clipboard" />
+            <ContentCopy
+              fontSize="8"
+              color="primary"
+              title="copy to clipboard"
+            />
           </IconButton>
         </ListItem>
       ))}

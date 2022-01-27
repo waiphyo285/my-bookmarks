@@ -3,7 +3,7 @@
     {
       "folder": "Daily Click Us",
       "description": "🔷 Fundraising Website Collection",
-      "imageUrl": "/images/spring_revolution.png",
+      "imageUrl": "/images/spring_revolution.jpg",
       "content": [
         {
           "title": "weclick4pdf",
@@ -216,6 +216,213 @@
           "title": "fsharpforfunandprofit",
           "description": "Day 22",
           "link": "https://fsharpforfunandprofit.com/"
+        }
+      ]
+    },
+    {
+      "folder": "JavaScript Tip & Tricks",
+      "description": "🔷 JavaScript Article Collection",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "content": [
+        {
+          "title": "45-javascript-tips-tricks",
+          "description": "t&t",
+          "link": "https://modernweb.com/45-javascript-tips-tricks-practices/"
+        },
+        {
+          "title": "8-javascript-tips-tricks",
+          "description": "t&t",
+          "link": "https://dev.to/worldindev/8-javascript-tips-tricks-that-no-one-teaches-24g1"
+        },
+        {
+          "title": "12-javascript-tricks",
+          "description": "t&t",
+          "link": "https://medium.com/@bretcameron/12-javascript-tricks-you-wont-find-in-most-tutorials-a9c9331f169d"
+        },
+        {
+          "title": "top-20-javascript-tips-and-tricks",
+          "description": "t&t",
+          "link": "https://dev.to/techygeeky/top-20-javascript-tips-and-tricks-to-increase-your-speed-and-efficiency-283g"
+        },
+        {
+          "title": "fullscreen-slider",
+          "description": "t&t",
+          "link": "https://www.ibrahima-ndaw.com/blog/fullscreen-slider/"
+        },
+        {
+          "title": "clean-code-javascript",
+          "description": "t&t",
+          "link": "https://github.com/ryanmcdermott/clean-code-javascript"
+        },
+        {
+          "title": "262.ecma-international",
+          "description": "t&t",
+          "link": "https://262.ecma-international.org/6.0/"
+        },
+        {
+          "title": "caesar-cipher-javascript",
+          "description": "t&t",
+          "link": "https://www.nayuki.io/page/caesar-cipher-javascript"
+        }
+      ]
+    },
+    {
+      "folder": "Icon Source",
+      "description": "🔷 Icon Source Collection",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg",
+      "content": [
+        {
+          "title": "getbootstrap",
+          "description": "icon",
+          "link": "https://icons.getbootstrap.com/"
+        },
+        {
+          "title": "icofont",
+          "description": "icon",
+          "link": "https://icofont.com/icons"
+        },
+        {
+          "title": "feathericons",
+          "description": "icon",
+          "link": "https://feathericons.com/"
+        },
+        {
+          "title": "fontawesome",
+          "description": "icon",
+          "link": "https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free"
+        },
+        {
+          "title": "icons8",
+          "description": "icon",
+          "link": "https://icons8.com/icons/"
+        },
+        {
+          "title": "preloaders",
+          "description": "icon",
+          "link": "https://icons8.com/preloaders/"
+        },
+        {
+          "title": "devicon",
+          "description": "icon",
+          "link": "https://devicon.dev/"
+        },
+        {
+          "title": "svgrepo",
+          "description": "icon",
+          "link": "https://www.svgrepo.com/"
+        },
+        {
+          "title": "flaticon",
+          "description": "icon",
+          "link": "https://www.flaticon.com/"
+        },
+        {
+          "title": "svgbackgrounds",
+          "description": "icon",
+          "link": "https://www.svgbackgrounds.com/"
+        }
+      ]
+    },
+    {
+      "folder": "Online Image Convertor",
+      "description": "🔷 Image Convertor Collection",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+      "content": [
+        {
+          "title": "picsum",
+          "description": "demo",
+          "link": "https://picsum.photos/"
+        },
+        {
+          "title": "canva",
+          "description": "editor",
+          "link": "https://www.canva.com/"
+        },
+        {
+          "title": "removal.ai",
+          "description": "convertor",
+          "link": "https://removal.ai/upload/"
+        },
+        {
+          "title": "remove.bg",
+          "description": "convertor",
+          "link": "https://www.remove.bg/upload"
+        },
+        {
+          "title": "pngtosvg",
+          "description": "convertor",
+          "link": "https://www.pngtosvg.com/"
+        },
+        {
+          "title": "onlineconvertfree",
+          "description": "convertor",
+          "link": "https://onlineconvertfree.com/convert/png/"
+        },
+        {
+          "title": "reduceimages",
+          "description": "convertor",
+          "link": "https://www.reduceimages.com/"
+        }
+      ]
+    },
+    {
+      "folder": "Online Code Editor",
+      "description": "🔷 Code Editor Collection",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg",
+      "content": [
+        {
+          "title": "quilljs.com/",
+          "description": "richtext",
+          "link": "https://quilljs.com/playground/"
+        },
+        {
+          "title": "codebeautify",
+          "description": "convertor",
+          "link": "https://codebeautify.org/"
+        },
+        {
+          "title": "html-to-pug",
+          "description": "convertor",
+          "link": "https://html-to-pug.com/"
+        }
+      ]
+    },
+    {
+      "folder": "Vim",
+      "description": "🔷 Vim Installation",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg",
+      "content": [
+        {
+          "title": "visualstudio",
+          "description": "vscodevim",
+          "link": "https://marketplace.visualstudio.com/items?itemName=vscodevim.vim"
+        },
+        {
+          "title": "install vim in window",
+          "description": "vimpowershell",
+          "link": "https://www.freecodecamp.org/news/vim-windows-install-powershell/"
+        }
+      ]
+    },
+    {
+      "folder": "CICD with Jenkins",
+      "description": "🔷 CICD Article - Node.js ",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-line.svg",
+      "content": [
+        {
+          "title": "node.js pipeline",
+          "description": "CICD",
+          "link": "https://medium.com/@mosheezderman/how-to-set-up-ci-cd-pipeline-for-a-node-js-app-with-jenkins-c51581cc783c"
+        },
+        {
+          "title": "nodel.js pipeline",
+          "description": "CICD",
+          "link": "https://medium.com/@gustavo.guss/jenkins-starting-with-pipeline-doing-a-node-js-test-72c6057b67d4"
+        },
+        {
+          "title": "quick tutorial",
+          "description": "CICD",
+          "link": "https://medium.com/@gustavo.guss/quick-tutorial-of-jenkins-b99d5f5889f2"
         }
       ]
     }
