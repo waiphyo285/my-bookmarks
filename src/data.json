@@ -320,6 +320,11 @@
           "title": "svgbackgrounds",
           "description": "icon",
           "link": "https://www.svgbackgrounds.com/"
+        },
+        {
+          "title": "loading.io",
+          "description": "icon",
+          "link": "https://loading.io/"
         }
       ]
     },
@@ -352,6 +357,11 @@
           "title": "pngtosvg",
           "description": "convertor",
           "link": "https://www.pngtosvg.com/"
+        },
+        {
+          "title": "png2jpg",
+          "description": "convertor",
+          "link": "https://png2jpg.com/"
         },
         {
           "title": "onlineconvertfree",
