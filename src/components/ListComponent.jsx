@@ -37,7 +37,6 @@ export default function ListComponent({ contentList }) {
           .then(() => console.log(`Link share is clicked`))
           .catch((error) => {
             console.log(`Link share ${error}`);
-            showToast("Oops! Something went wrong");
           })
       : showToast("Web share is currently not supported");
   };
@@ -99,13 +98,12 @@ export default function ListComponent({ contentList }) {
             size="small"
             aria-label="share"
             onClick={() => {
-              alert(content.link);
               handleSharing(content.link);
             }}
           >
             <ShareIcon
               fontSize="8"
-              color="secondary"
+              color="primary"
               title="share to the world"
             />
           </IconButton>
