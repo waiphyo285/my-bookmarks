@@ -16,7 +16,6 @@ import {
 } from "@mui/icons-material";
 import DialogComponent from "./DialogComponent";
 import AlertComponent from "./AlertComponent";
-import Share from "./ShareComponent";
 
 export default function MultiActionAreaCard({ bookmark }) {
   const { folder, imageUrl, description, content } = bookmark;
@@ -45,7 +44,7 @@ export default function MultiActionAreaCard({ bookmark }) {
         <CardActionArea>
           <CardMedia alt={folder} component="img" image={imageUrl} />
           <CardContent>
-            <Typography gutterBottom variant="subtitle1" component="div">
+            <Typography gutterBottom variant="h6" component="div">
               {folder}
             </Typography>
             <Typography variant="body2" color="text.secondary">
@@ -66,7 +65,6 @@ export default function MultiActionAreaCard({ bookmark }) {
             <Button size="small" color="primary" onClick={handleOpenAlert}>
               <EditTwoTone />
             </Button>
-            <Share label="Share" title="Web Share" text="Web Share" ></Share>
             <Button size="small" color="primary" onClick={handleOpenAlert}>
               <DeleteTwoTone />
             </Button>
