@@ -10,7 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import { toast } from "react-toastify";
-import { Bookmark, ContentCopy } from "@mui/icons-material";
+import { Bookmark, ContentCopy, Share as ShareIcon } from "@mui/icons-material";
 
 export default function ListComponent({ contentList }) {
   const showToast = (message) => {
@@ -24,6 +24,24 @@ export default function ListComponent({ contentList }) {
       progress: false,
     });
   };
+
+  const handleSharing = (link) => {
+    const shareDetails = {
+      url: link,
+      title: "My Bookmarks",
+      text: "Success! This content was shared to tha world.",
+    };
+    navigator.share
+      ? navigator
+          .share(shareDetails)
+          .then(() => console.log(`Link share is clicked`))
+          .catch((error) => {
+            console.log(`Link share ${error}`);
+            showToast("Oops! Something went wrong");
+          })
+      : showToast("Web share is currently not supported");
+  };
+
   return (
     <List
       sx={{
@@ -74,6 +92,21 @@ export default function ListComponent({ contentList }) {
               fontSize="8"
               color="primary"
               title="copy to clipboard"
+            />
+          </IconButton>
+          <IconButton
+            edge="end"
+            size="small"
+            aria-label="share"
+            onClick={() => {
+              alert(content.link);
+              handleSharing(content.link);
+            }}
+          >
+            <ShareIcon
+              fontSize="8"
+              color="secondary"
+              title="share to the world"
             />
           </IconButton>
         </ListItem>
