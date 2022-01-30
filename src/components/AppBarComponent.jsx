@@ -69,6 +69,9 @@ export default function AppBarComponent() {
                 </Link>
               </MenuItem>
             ))}
+            <MenuItem onClick={() => alert("Ongoing...")}>
+              <Typography textAlign="center">Login</Typography>
+            </MenuItem>
           </Menu>
         </Box>
       </Toolbar>

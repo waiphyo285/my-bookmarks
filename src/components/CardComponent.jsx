@@ -45,7 +45,7 @@ export default function MultiActionAreaCard({ bookmark }) {
         <CardActionArea>
           <CardMedia alt={folder} component="img" image={imageUrl} />
           <CardContent>
-            <Typography gutterBottom variant="h6" component="div">
+            <Typography gutterBottom variant="subtitle1" component="div">
               {folder}
             </Typography>
             <Typography variant="body2" color="text.secondary">
