@@ -12,12 +12,7 @@ import {
   Tooltip,
   IconButton,
 } from "@mui/material";
-import {
-  Bookmark,
-  CreateNewFolder,
-  DarkMode,
-  LightMode,
-} from "@mui/icons-material";
+import { Bookmark, CreateNewFolder, DarkMode } from "@mui/icons-material";
 import { showToast } from "../utils";
 import AuthComponent from "./AuthComponent";
 
