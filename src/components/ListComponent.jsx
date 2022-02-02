@@ -9,22 +9,10 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import { toast } from "react-toastify";
+import { showToast } from "../utils";
 import { Bookmark, ContentCopy, Share as ShareIcon } from "@mui/icons-material";
 
 export default function ListComponent({ contentList }) {
-  const showToast = (message) => {
-    toast.info(message, {
-      autoClose: 3000,
-      position: "bottom-center",
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: false,
-    });
-  };
-
   const handleSharing = (link) => {
     const shareDetails = {
       url: link,

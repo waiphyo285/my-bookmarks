@@ -6,7 +6,6 @@ import DialogComponent from "./DialogComponent";
 import AlertComponent from "./AlertComponent";
 
 import data from "../data.json";
-
 const MyBookmarks = data.myBookmarks;
 
 export default function BodyComponent() {

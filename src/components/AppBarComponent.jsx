@@ -1,10 +1,10 @@
 import * as React from "react";
-import { Bookmark } from "@mui/icons-material";
 import {
   Box,
   Link,
   Menu,
   MenuItem,
+  Drawer,
   Avatar,
   AppBar,
   Toolbar,
@@ -12,16 +12,27 @@ import {
   Tooltip,
   IconButton,
 } from "@mui/material";
+import {
+  Bookmark,
+  CreateNewFolder,
+  DarkMode,
+  LightMode,
+} from "@mui/icons-material";
+import { showToast } from "../utils";
+import AuthComponent from "./AuthComponent";
 
 const settings = [
   {
-    text: "Portfolio",
+    text: "Visit portfolio",
     link: "https://waiphyonaing.me",
   },
 ];
 
 export default function AppBarComponent() {
+  const checkAuth = localStorage.getItem("isAuth");
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [authDrawer, setAuthDrawer] = React.useState({ bottom: false });
+  const [isAdmin, setIsAdmin] = React.useState(checkAuth || false);
 
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
@@ -29,6 +40,19 @@ export default function AppBarComponent() {
 
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
+  };
+
+  const toggleDrawer = (anchor, open) => (event) => {
+    const isReturn =
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift");
+    return isReturn ? false : setAuthDrawer({ ...authDrawer, [anchor]: open });
+  };
+
+  const logoutAuth = () => {
+    setIsAdmin(false);
+    localStorage.clear();
+    showToast("Successful logout");
   };
 
   return (
@@ -41,15 +65,24 @@ export default function AppBarComponent() {
           Bookmarks
         </Typography>
         <Box sx={{ flexGrow: 0 }}>
+          <Tooltip title="New Folder">
+            <IconButton sx={{ px: 1.3, color: "#fff" }}>
+              <CreateNewFolder />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="Change Theme">
+            <IconButton sx={{ px: 1.3, color: "#fff" }}>
+              <DarkMode />
+            </IconButton>
+          </Tooltip>
           <Tooltip title="Open settings">
-            <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+            <IconButton onClick={handleOpenUserMenu} sx={{ px: 1.5 }}>
               <Avatar alt="Wai Phyo" src="/images/profile_pic.png" />
             </IconButton>
           </Tooltip>
           <Menu
-            sx={{ mt: "45px" }}
             id="menu-appbar"
-            keepMounted
+            sx={{ mt: "45px" }}
             anchorEl={anchorElUser}
             anchorOrigin={{
               vertical: "top",
@@ -61,17 +94,36 @@ export default function AppBarComponent() {
             }}
             open={Boolean(anchorElUser)}
             onClose={handleCloseUserMenu}
+            keepMounted
           >
             {settings.map((setting, idx) => (
               <MenuItem key={idx} onClick={handleCloseUserMenu}>
                 <Link href={setting.link} color="inherit" underline="none">
-                  <Typography textAlign="center">{setting.text}</Typography>
+                  <Typography>{setting.text}</Typography>
                 </Link>
               </MenuItem>
             ))}
-            <MenuItem onClick={() => alert("Ongoing...")}>
-              <Typography textAlign="center">Login</Typography>
-            </MenuItem>
+            {isAdmin ? (
+              <MenuItem onClick={() => logoutAuth()}>
+                <Typography textAlign="center">Logout as admin</Typography>
+              </MenuItem>
+            ) : (
+              <MenuItem onClick={toggleDrawer("bottom", true)}>
+                <Typography textAlign="center">Login as admin</Typography>
+              </MenuItem>
+            )}
+            <Drawer
+              anchor="bottom"
+              open={authDrawer["bottom"]}
+              onClose={toggleDrawer("bottom", false)}
+            >
+              <AuthComponent
+                authDrawer={authDrawer}
+                setAuthDrawer={setAuthDrawer}
+                isAdmin={isAdmin}
+                setIsAdmin={setIsAdmin}
+              />
+            </Drawer>
           </Menu>
         </Box>
       </Toolbar>
