@@ -8,13 +8,13 @@ import AlertComponent from "./AlertComponent";
 import data from "../data.json";
 const MyBookmarks = data.myBookmarks;
 
-export default function BodyComponent() {
+export default function MainComponent() {
   return (
     <main>
       <Box
         sx={{
-          marginTop: 12,
-          marginBottom: 12,
+          marginTop: 10,
+          paddingBottom: 4,
         }}
       >
         <Container>

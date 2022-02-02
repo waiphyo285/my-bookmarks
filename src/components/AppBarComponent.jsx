@@ -12,7 +12,12 @@ import {
   Tooltip,
   IconButton,
 } from "@mui/material";
-import { Bookmark, CreateNewFolder, DarkMode } from "@mui/icons-material";
+import {
+  Bookmark,
+  CreateNewFolder,
+  DarkMode,
+  LightMode,
+} from "@mui/icons-material";
 import { showToast } from "../utils";
 import AuthComponent from "./AuthComponent";
 
@@ -23,7 +28,7 @@ const settings = [
   },
 ];
 
-export default function AppBarComponent() {
+export default function AppBarComponent({ colorMode, theme }) {
   const checkAuth = localStorage.getItem("isAuth");
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [authDrawer, setAuthDrawer] = React.useState({ bottom: false });
@@ -66,8 +71,12 @@ export default function AppBarComponent() {
             </IconButton>
           </Tooltip>
           <Tooltip title="Change Theme">
-            <IconButton sx={{ px: 1.3, color: "#fff" }}>
-              <DarkMode />
+            <IconButton
+              sx={{ px: 1.3, color: "#fff" }}
+              onClick={colorMode.toggleColorMode}
+              color="inherit"
+            >
+              {theme.palette.mode === "dark" ? <DarkMode /> : <LightMode />}
             </IconButton>
           </Tooltip>
           <Tooltip title="Open settings">

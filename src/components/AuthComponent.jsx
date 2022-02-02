@@ -44,10 +44,10 @@ export default function AuthComponent({
           margin: 1.5,
           width: "80px",
           height: "80px",
-          bgcolor: "lightblue",
+          bgcolor: "#eee",
         }}
       >
-        <AccountCircle sx={{ fontSize: "50px", color: "primary.main" }} />
+        <AccountCircle sx={{ fontSize: "75px", color: "primary.main" }} />
       </Avatar>
       <Typography component="h1" variant="h5">
         Sign in
