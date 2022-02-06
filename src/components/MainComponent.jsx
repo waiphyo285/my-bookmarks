@@ -2,13 +2,15 @@ import * as React from "react";
 import { ToastContainer } from "react-toastify";
 import { Box, Grid, Container } from "@mui/material";
 import CardComponent from "./CardComponent";
-import DialogComponent from "./DialogComponent";
 import AlertComponent from "./AlertComponent";
 
 import data from "../data.json";
 const MyBookmarks = data.myBookmarks;
 
-export default function MainComponent() {
+export default function MainComponent({ isAdmin, setIsAdmin }) {
+  const [openAlert, setOpenAlert] = React.useState(false);
+  const handleOpenAlert = () => setOpenAlert(true);
+  const handleCloseAlert = () => setOpenAlert(false);
   return (
     <main>
       <Box
@@ -25,14 +27,21 @@ export default function MainComponent() {
           >
             {MyBookmarks.map((bookmark, idx) => (
               <Grid key={idx} item xs={12} sm={3} md={3}>
-                <CardComponent bookmark={bookmark} />
+                <CardComponent
+                  isAdmin={isAdmin}
+                  bookmark={bookmark}
+                  handleOpenAlert={handleOpenAlert}
+                />
               </Grid>
             ))}
           </Grid>
-          <DialogComponent />
         </Container>
       </Box>
-      <AlertComponent />
+      <AlertComponent
+        open={openAlert}
+        handleOpen={handleOpenAlert}
+        handleClose={handleCloseAlert}
+      />
       <ToastContainer />
     </main>
   );

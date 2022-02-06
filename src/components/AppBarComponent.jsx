@@ -28,11 +28,14 @@ const settings = [
   },
 ];
 
-export default function AppBarComponent({ colorMode, theme }) {
-  const checkAuth = localStorage.getItem("isAuth");
+export default function AppBarComponent({
+  colorMode,
+  theme,
+  isAdmin,
+  setIsAdmin,
+}) {
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [authDrawer, setAuthDrawer] = React.useState({ bottom: false });
-  const [isAdmin, setIsAdmin] = React.useState(checkAuth || false);
 
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
@@ -65,11 +68,15 @@ export default function AppBarComponent({ colorMode, theme }) {
           Bookmarks
         </Typography>
         <Box sx={{ flexGrow: 0 }}>
-          <Tooltip title="New Folder">
-            <IconButton sx={{ px: 1.3, color: "#fff" }}>
-              <CreateNewFolder />
-            </IconButton>
-          </Tooltip>
+          {isAdmin ? (
+            <Tooltip title="New Folder">
+              <IconButton sx={{ px: 1.3, color: "#fff" }}>
+                <CreateNewFolder />
+              </IconButton>
+            </Tooltip>
+          ) : (
+            ""
+          )}
           <Tooltip title="Change Theme">
             <IconButton
               sx={{ px: 1.3, color: "#fff" }}

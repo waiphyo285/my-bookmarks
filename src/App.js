@@ -12,6 +12,8 @@ const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 function MyApp() {
   const theme = useTheme();
   const colorMode = React.useContext(ColorModeContext);
+  const checkAuth = localStorage.getItem("isAuth");
+  const [isAdmin, setIsAdmin] = React.useState(checkAuth || false);
   return (
     <Box
       sx={{
@@ -20,8 +22,13 @@ function MyApp() {
         color: "text.primary",
       }}
     >
-      <AppBarComponent colorMode={colorMode} theme={theme} />
-      <MainComponent />
+      <AppBarComponent
+        colorMode={colorMode}
+        theme={theme}
+        isAdmin={isAdmin}
+        setIsAdmin={setIsAdmin}
+      />
+      <MainComponent isAdmin={isAdmin} setIsAdmin={setIsAdmin} />
     </Box>
   );
 }

@@ -28,7 +28,6 @@ export default function ListComponent({ contentList }) {
           })
       : showToast("Web share is currently not supported");
   };
-
   return (
     <List
       sx={{
