@@ -70,7 +70,7 @@ export default function AppBarComponent({
         <Box sx={{ flexGrow: 0 }}>
           {isAdmin ? (
             <Tooltip title="New Folder">
-              <IconButton sx={{ px: 1.3, color: "#fff" }}>
+              <IconButton sx={{ color: "#fff" }}>
                 <CreateNewFolder />
               </IconButton>
             </Tooltip>
@@ -79,7 +79,7 @@ export default function AppBarComponent({
           )}
           <Tooltip title="Change Theme">
             <IconButton
-              sx={{ px: 1.3, color: "#fff" }}
+              sx={{ color: "#fff" }}
               onClick={colorMode.toggleColorMode}
               color="inherit"
             >
@@ -87,7 +87,7 @@ export default function AppBarComponent({
             </IconButton>
           </Tooltip>
           <Tooltip title="Open settings">
-            <IconButton onClick={handleOpenUserMenu} sx={{ px: 1.5 }}>
+            <IconButton onClick={handleOpenUserMenu} sx={{}}>
               <Avatar alt="Wai Phyo" src="/images/profile_pic.png" />
             </IconButton>
           </Tooltip>
