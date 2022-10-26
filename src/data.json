@@ -8,7 +8,7 @@
       "id": "daily-click-us",
       "folder": "Daily Click Us",
       "description": "🔷 Fundraising Website Collection",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "weclick4pdf",
@@ -96,7 +96,7 @@
       "id": "javascript-tip-&-tricks",
       "folder": "JavaScript Tip & Tricks",
       "description": "🔷 JavaScript Article Collection",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "45-javascript-tips-tricks",
@@ -144,7 +144,7 @@
       "id": "sir-thet-khine",
       "folder": "Sir Thet Khine",
       "description": "🔷 React 3rd Batch - Links",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "libgen",
@@ -297,8 +297,7 @@
       "id": "vim-examples",
       "folder": "Vim Examples",
       "description": "🔷 Vim Installation",
-      "imageUrl": "/images/contents/bookmark.png",
-
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "visualstudio",
@@ -316,7 +315,7 @@
       "id": "cicd-with-jenkins",
       "folder": "CICD with Jenkins",
       "description": "🔷 CICD Article - Node.js ",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "node.js pipeline",
@@ -339,7 +338,7 @@
       "id": "docker-for-myanmar",
       "folder": "Docker for Myanmar",
       "description": "🔷 Docker for Myanmar Books",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "devops-myanmar",
@@ -362,7 +361,7 @@
       "id": "demo-api",
       "folder": "Demo API",
       "description": "🔷 Demo API Collection",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "gorest",
@@ -379,7 +378,6 @@
           "description": "useful lib",
           "link": "https://intl-tel-input.com/"
         },
-
         {
           "title": "audio-video-streaming-api",
           "description": "useful api",
@@ -391,7 +389,7 @@
       "id": "online-code-editor",
       "folder": "Online Code Editor",
       "description": "🔷 Code Editor Collection",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "quilljs.com",
@@ -414,7 +412,7 @@
       "id": "icon-source",
       "folder": "Icon Source",
       "description": "🔷 Icon Source Collection",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "getbootstrap",
@@ -477,7 +475,7 @@
       "id": "online-image-convertor",
       "folder": "Online Image Convertor",
       "description": "🔷 Image Convertor Collection",
-      "imageUrl": "/images/contents/bookmark.png",
+      "imageUrl": "/images/contents/bookmark.jpg",
       "content": [
         {
           "title": "picsum",

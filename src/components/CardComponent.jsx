@@ -42,7 +42,7 @@ export default function MultiActionAreaCard({
     <>
       <Card sx={{ padding: 0.5 }}>
         <CardActionArea>
-          <CardMedia alt={folder} component="img" image={imageUrl} />
+          <CardMedia alt={folder} component="img" image={imageUrl} sx={{ height: "180px" }} />
           <CardContent>
             <Typography gutterBottom variant="h6" component="div">
               {folder}
