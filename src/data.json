@@ -516,6 +516,11 @@
           "title": "reduceimages",
           "description": "convertor",
           "link": "https://www.reduceimages.com/"
+        },
+        {
+          "title": "curveimages",
+          "description": "getsvg",
+          "link": "https://getwaves.io/"
         }
       ]
     }
